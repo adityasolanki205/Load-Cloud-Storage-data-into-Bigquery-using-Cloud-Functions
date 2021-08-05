@@ -127,7 +127,7 @@ Below are the steps to setup the enviroment and run the codes:
 
 ```
 
-The output will be in tht Bigquery dataset created. 
+The output will be in the Bigquery dataset created. 
 
 
 ## Tests
