@@ -74,7 +74,7 @@ Below are the steps to setup the enviroment and run the codes:
 
 6. **Creating a Cloud Functions**: Now we will create a cloud functions. Follow the steps given in test section of this document.
 
-7. **Read data from GCS and load into Bigquery**: Here we will read the data from GCS and load into Bigquery. Here we will read the data from Google cloud Bucket(present in the variable 'uri'). Then load data in Bigquery using client.load_table_from_uri. Here Write Desposition can be changed from 'WRITE_APPEND' to 'WRITE_TRUNCATE' depending on the requirement.  
+7. **Read data from GCS and load into Bigquery**: In the python code we will read the data from Google cloud Bucket(present in the variable 'uri') and load  it Bigquery using client.load_table_from_uri. Here Write Desposition can be changed from 'WRITE_APPEND' to 'WRITE_TRUNCATE' depending on the requirement.  
 
 ```python
     import os
