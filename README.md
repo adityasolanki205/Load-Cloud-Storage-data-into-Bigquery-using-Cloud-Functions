@@ -164,7 +164,7 @@ To test the code we need to do the following:
         Classification:INTEGER
     
     6. Create the Cloud functions as mentioned below: 
-        a. Functions-name: CSV to Bigquery
+        a. Functions-name: CSV-to-Bigquery
         b. Regions: us-central1
         c. Trigger type: Cloud Storage
         d. Event Type: Finalize/Create
