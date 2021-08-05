@@ -35,7 +35,7 @@ def load_csv_to_bq(data, context):
         job_config.source_format = bigquery.SourceFormat.CSV
 
         # get the URI for uploaded CSV in GCS from 'data'
-        uri = 'gs://functions-testing-bq/german_data.csv'
+        uri = 'gs://' + os.environ['BUCKET'] + '/' + os.environ['FILE']
 
         # load the data into BQ
         load_job = client.load_table_from_uri(
